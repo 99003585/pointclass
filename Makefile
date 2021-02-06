@@ -1,8 +1,8 @@
-all.out: point.cpp point_test.cpp
-	g++ $^ -lgtest_main -lgtest -lpthread -o all.out
-
-test:all.out
-	./all.out
-
+src= point.cpp point_test.cpp
+project = target
+target = $(src)
+	g++ $^ -lgtest -lgtest_main -lpthread -o $@
+run: $(project)
+    ./$^
 clean:
 	rm *.out
