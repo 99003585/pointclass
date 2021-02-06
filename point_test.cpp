@@ -4,18 +4,18 @@
 namespace{
     TEST(Point,Origin){
         Point p1(0,0);
-        EXPECT_EQ(true, p1.isOrigin());
+        EXPECT_EQ(true, p1.isOnOrigin());
 
     }
 
     TEST(Point,Xaxis){
-        Point p1(2,0);
+        Point p1(7,0);
         EXPECT_EQ(true, p1.isOnXAxis());
 
     }
 
     TEST(Point,Yaxis){
-        Point p1(0,2);
+        Point p1(0,7);
         EXPECT_EQ(true, p1.isOnYAxis());
 
     }
