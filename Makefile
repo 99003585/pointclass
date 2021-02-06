@@ -1,8 +1,8 @@
-src= point.cpp point_test.cpp
+src = point.cpp point_test.cpp
 project = target
-target = $(src)
+target: $(src)
 	g++ $^ -lgtest -lgtest_main -lpthread -o $@
 run: $(project)
-    ./$^
+	./$^
 clean:
 	rm *.out
