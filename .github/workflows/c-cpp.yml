@@ -13,11 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: configure
-      run: ./configure
-    - name: make
+    - name: build-essential
+      run: sudo apt-get install build-essential
+    - name: cmake-install
+      run: sudo apt install cmake
+    - name: make run
       run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
