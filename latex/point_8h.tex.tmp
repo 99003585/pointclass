@@ -1,0 +1,35 @@
+\hypertarget{point_8h}{}\doxysection{point.\+h File Reference}
+\label{point_8h}\index{point.h@{point.h}}
+{\ttfamily \#include $<$math.\+h$>$}\newline
+Include dependency graph for point.\+h\+:
+% FIG 0
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classPoint}{Point}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{point_8h_aa6231abf057d0f6fae9d738bfff235a5}\label{point_8h_aa6231abf057d0f6fae9d738bfff235a5}} 
+enum {\bfseries Quadrant} \{ {\bfseries Q1}, 
+{\bfseries Q2}, 
+{\bfseries Q3}, 
+{\bfseries Q4}
+ \}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+your name (\href{mailto:you@domain.com}{\texttt{ you@domain.\+com}}) 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2021-\/02-\/06
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2021 
+\end{DoxyCopyright}

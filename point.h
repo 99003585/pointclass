@@ -1,5 +1,15 @@
-#include<iostream>
+/**
+ * @file point.h
+ * @author your name (you@domain.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-02-06
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include<math.h>
+
 enum Quadrant {
 Q1,
 Q2,
