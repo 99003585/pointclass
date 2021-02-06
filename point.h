@@ -9,6 +9,7 @@
  * 
  */
 #include<math.h>
+
 enum Quadrant {
 Q1,
 Q2,

@@ -1,3 +1,13 @@
+/**
+ * @file point.cpp
+ * @author your name (you@domain.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-02-06
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "point.h"
 Point::Point():m_x(0),m_y(0){
 
@@ -10,7 +20,7 @@ Point::Point(const Point& ref):m_x(ref.m_x),m_y(ref.m_y){
 }
 
 /**
- * @brief To calculate the distance from  origin
+ * @brief To calculate distance from origin
  * 
  * @return double 
  */
@@ -20,7 +30,7 @@ double Point::distanceFromOrigin(){
 }
 
 /**
- * @brief To check the quadrant in which the point lies
+ * @brief To check the quadrant in which point lies
  * 
  * @return Quadrant 
  */
@@ -39,7 +49,7 @@ Quadrant Point::quadrant() const{
 }
 
 /**
- * @brief To check wheather the point lies on origin
+ * @brief To check wheather point lies on origin
  * 
  * @return true 
  * @return false 
@@ -50,7 +60,7 @@ bool Point::isOnOrigin() const{
 }
 
 /**
- * @brief To check wheather the point lies on x-axis
+ * @brief To check wheather point lies on x-axis
  * 
  * @return true 
  * @return false 
@@ -64,7 +74,7 @@ bool Point::isOnXAxis() const{
 }
 
 /**
- * @brief To check wheather the point lies on y-axis
+ * @brief To check wheather point lies on x-axis
  * 
  * @return true 
  * @return false 
@@ -74,10 +84,11 @@ bool Point::isOnYAxis() const{
         if(m_y!=0)
           return true;
     }
-}
 
+
+}
 /**
- * @brief To display the x & y points
+ * @brief To display the x & ypoints
  * 
  */
 void Point::display() const{
